@@ -115,7 +115,7 @@ footer a {
 footer a:hover {
     color:yellowgreen;
 }
-.icon {
+.icon, .logo {
     width: 80px;
 }
 footer p {
@@ -162,7 +162,7 @@ nav {
     grid-template-columns: repeat(10, 1fr);
 }
 .card-img, .mountains {
-    width: 100%;
+    width: 100%;#hero-msg h
 }
 .rivers-card{
     grid-column: 2/4;
