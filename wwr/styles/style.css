@@ -162,7 +162,7 @@ nav {
     grid-template-columns: repeat(10, 1fr);
 }
 .card-img, .mountains {
-    width: 100%;#hero-msg h
+    width: 100%;
 }
 .rivers-card{
     grid-column: 2/4;
