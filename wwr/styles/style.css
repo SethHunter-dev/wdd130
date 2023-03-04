@@ -180,6 +180,31 @@ nav {
     grid-column: 2/7;
     grid-row: 5/8;
 }
+
+
+/*Page 2 FAQ THANG*/
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+  }
+  
+  .box {
+    /*color: white;*/
+    background-color: #6f7364;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .box h2{
+    color: #fbf5d8;
+  }
+  .box p{
+    color: rgb(5, 5, 5);
+  }
+
+/*media queries i think*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
