@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Phudu&display=swap');
+
+div {
+    max-width: 1600px;
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+    margin-top: 50px;
+}
+
+#content {
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: #1D6BE0;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+main section {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.7); 
+    font-family: "Cinzel", Lato, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: White;
+}
+
+
+h2{
+    margin-bottom: 25px;
+}
+
+header {
+    background-color:rgba(0, 0, 0, .7);
+    font-family: "Phudu", "IM Fell French Canon SC";
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a:hover {
+    background-color: #1D6BE0;
+    color: white;
+}
+
+.Grid-card .card-img {
+    width: 25%;
+    height: auto;
+    margin-top: 25px;
+  }
+
+  .Pieces-card .card-img {
+    width: 25%;
+    height: auto;
+    padding-top: 25px;
+    display: block;
+    float: left !important;
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+  }
+
+.msg {
+    background-color: rgba(0, 0, 0, .7);
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg h2 {
+    color: #1D6BE0;
+}
+.msg p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #1D6BE0;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color:White;
+}
+
+footer a:hover {
+    color:#1D6BE0;
+}
+
+.icon, .logo {
+    width: 90px;
+}
+
+footer p {
+    font-size: 1.2em;
+}    
+
+footer p a:hover {
+    text-decoration: underline;
+}    
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
