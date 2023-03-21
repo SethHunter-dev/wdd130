@@ -125,3 +125,13 @@ footer p a:hover {
 footer .social img{
     padding-top: 15px;
 }
+
+/*Page 2*/
+.float-right {
+  float: right;
+  width: 20%;
+  height: auto;
+  margin: 100px 0 100px 100px;
+  padding: 0 0 10px 10px;
+  clear: right;
+}
