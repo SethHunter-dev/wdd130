@@ -135,3 +135,21 @@ footer .social img{
   padding: 0 0 10px 10px;
   clear: right;
 }
+
+/*Page 3*/
+.contain {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+    display: inline-block;
+    width: 30%; /* change this value to adjust the width of the boxes */
+    margin: 0 1.5%;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+  }
